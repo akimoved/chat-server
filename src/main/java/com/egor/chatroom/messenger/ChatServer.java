@@ -17,12 +17,12 @@ public class ChatServer {
 	/**
 	 * Collection of all client sockets currently connected to the chat server
 	 */
-	static Vector<Socket> clientSockets;
+	private static Vector<Socket> clientSockets;
 	
 	/**
 	 * List of all client names currently connected to the chat server
 	 */
-	static Vector<String> loginNames;
+	private static Vector<String> loginNames;
 	
 	/**
 	 * Class constructor for starting the chat server.

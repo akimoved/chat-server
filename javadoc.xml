@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="package" 
+        	author="true" 
+        	classpath="C:\Users\Egor\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;target/test-classes" 
+        	destdir="D:\Java\projects\messenger\javadocs"
+        	doctitle="Java Messenger API" 
+        	nodeprecated="false" 
+        	nodeprecatedlist="false" 
+        	noindex="false" 
+        	nonavbar="false" 
+        	notree="false" 
+        	source="21" 
+        	sourcefiles="src/main/java/com/egor/chatroom/messenger/ChatClient.java,src/main/java/com/egor/chatroom/messenger/ChatServer.java" 
+        	sourcepath="src/main/java" 
+        	splitindex="true" 
+        	use="true" 
+        	version="true"/>
+    </target>
+</project>
